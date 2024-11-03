@@ -40,7 +40,7 @@ arr.forEach(button => {
             string = string.substring(0, string.length - 1);
             input.value = string;
         }
-        else if (e.target.innerHTML == "sin" || e.target.innerHTML == "cos" || e.target.innerHTML == "tan" || e.target.innerHTML == "ln" || e.target.innerHTML == "CBRT" || e.target.innerHTML == "ceil" || e.target.innerHTML == "floor") {
+        else if (e.target.innerHTML == "sin" || e.target.innerHTML == "cos" || e.target.innerHTML == "tan" || e.target.innerHTML == "ln" || e.target.innerHTML == "CBRT" || e.target.innerHTML == "SQRT" || e.target.innerHTML == "ceil" || e.target.innerHTML == "floor") {
 
             let func = e.target.innerHTML;
 
